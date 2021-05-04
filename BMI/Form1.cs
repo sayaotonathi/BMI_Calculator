@@ -21,7 +21,7 @@ namespace BMI
         {
             double height = (double)nud_Height.Value; //身高轉double
             double weight = (double)nud_Weight.Value; //體重轉double
-            int gender = pnl_Gender.Controls.OfType<RadioButton>().FirstOrDefault(n => n.Checked).Text == "男" ? 1 : 0; //1:男 0:女
+            int gender = int.Parse(pnl_Gender.Controls.OfType<RadioButton>().FirstOrDefault(n => n.Checked).Tag.ToString()); //1:男 0:女
             string result = "";
             double bmi;
             #region 身高體重為0防呆
@@ -59,7 +59,7 @@ namespace BMI
         {
             double height = (double)nud_Height.Value; //身高轉double
             double weight = (double)nud_Weight.Value; //體重轉double
-            int gender = pnl_Gender.Controls.OfType<RadioButton>().FirstOrDefault(n => n.Checked).Text == "男" ? 1 : 0; //1:男 0:女
+            int gender = int.Parse(pnl_Gender.Controls.OfType<RadioButton>().FirstOrDefault(n => n.Checked).Tag.ToString()); //1:男 0:女
             cHuman human = null;
             #region 身高體重為0防呆
             if (height == 0)

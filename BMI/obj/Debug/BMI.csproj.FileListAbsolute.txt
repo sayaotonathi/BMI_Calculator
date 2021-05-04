@@ -8,3 +8,13 @@ E:\Homework\BMI\BMI\obj\Debug\BMI.csproj.GenerateResource.cache
 E:\Homework\BMI\BMI\obj\Debug\BMI.csproj.CoreCompileInputs.cache
 E:\Homework\BMI\BMI\obj\Debug\BMI.exe
 E:\Homework\BMI\BMI\obj\Debug\BMI.pdb
+E:\Homework\BMI_Calculator\BMI\obj\Debug\BMI.csprojAssemblyReference.cache
+E:\Homework\BMI_Calculator\BMI\obj\Debug\BMI.Form1.resources
+E:\Homework\BMI_Calculator\BMI\obj\Debug\BMI.Properties.Resources.resources
+E:\Homework\BMI_Calculator\BMI\obj\Debug\BMI.csproj.GenerateResource.cache
+E:\Homework\BMI_Calculator\BMI\obj\Debug\BMI.csproj.CoreCompileInputs.cache
+E:\Homework\BMI_Calculator\BMI\obj\Debug\BMI.exe
+E:\Homework\BMI_Calculator\BMI\obj\Debug\BMI.pdb
+E:\Homework\BMI_Calculator\BMI\bin\Debug\BMI.exe.config
+E:\Homework\BMI_Calculator\BMI\bin\Debug\BMI.exe
+E:\Homework\BMI_Calculator\BMI\bin\Debug\BMI.pdb

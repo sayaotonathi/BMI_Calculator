@@ -171,20 +171,22 @@ namespace BMI
             this.rb_Male.Checked = true;
             this.rb_Male.Location = new System.Drawing.Point(14, 13);
             this.rb_Male.Name = "rb_Male";
-            this.rb_Male.Size = new System.Drawing.Size(35, 16);
+            this.rb_Male.Size = new System.Drawing.Size(44, 16);
             this.rb_Male.TabIndex = 12;
             this.rb_Male.TabStop = true;
-            this.rb_Male.Text = "男";
+            this.rb_Male.Tag = "1";
+            this.rb_Male.Text = "Man";
             this.rb_Male.UseVisualStyleBackColor = true;
             // 
             // rb_Female
             // 
             this.rb_Female.AutoSize = true;
-            this.rb_Female.Location = new System.Drawing.Point(55, 13);
+            this.rb_Female.Location = new System.Drawing.Point(64, 13);
             this.rb_Female.Name = "rb_Female";
-            this.rb_Female.Size = new System.Drawing.Size(35, 16);
+            this.rb_Female.Size = new System.Drawing.Size(60, 16);
             this.rb_Female.TabIndex = 13;
-            this.rb_Female.Text = "女";
+            this.rb_Female.Tag = "0";
+            this.rb_Female.Text = "Woman";
             this.rb_Female.UseVisualStyleBackColor = true;
             // 
             // pnl_Gender
@@ -193,7 +195,7 @@ namespace BMI
             this.pnl_Gender.Controls.Add(this.rb_Male);
             this.pnl_Gender.Location = new System.Drawing.Point(123, 67);
             this.pnl_Gender.Name = "pnl_Gender";
-            this.pnl_Gender.Size = new System.Drawing.Size(120, 43);
+            this.pnl_Gender.Size = new System.Drawing.Size(155, 43);
             this.pnl_Gender.TabIndex = 14;
             // 
             // btn_Clac2
