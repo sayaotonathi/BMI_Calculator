@@ -204,7 +204,7 @@ namespace BMI
             this.btn_Clac2.Name = "btn_Clac2";
             this.btn_Clac2.Size = new System.Drawing.Size(97, 23);
             this.btn_Clac2.TabIndex = 15;
-            this.btn_Clac2.Text = "計算(查資料)";
+            this.btn_Clac2.Text = "計算(查資料後)";
             this.btn_Clac2.UseVisualStyleBackColor = true;
             this.btn_Clac2.Click += new System.EventHandler(this.btn_Clac2_Click);
             // 

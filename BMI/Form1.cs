@@ -60,7 +60,6 @@ namespace BMI
             double height = (double)nud_Height.Value; //身高轉double
             double weight = (double)nud_Weight.Value; //體重轉double
             int gender = int.Parse(pnl_Gender.Controls.OfType<RadioButton>().FirstOrDefault(n => n.Checked).Tag.ToString()); //1:男 0:女
-            cHuman human = null;
             #region 身高體重為0防呆
             if (height == 0)
             {
@@ -74,16 +73,8 @@ namespace BMI
             }
             #endregion
 
-            //依據性別實例化human
-            switch (gender)
-            {
-                case 1:
-                    human = new cHuman(height, weight, new cMale());
-                    break;
-                case 0:
-                    human = new cHuman(height, weight, new cFemale());
-                    break;
-            }
+            //取得human實體
+            cHuman human = (new cHumanFactory()).getHuman(height, weight, gender);
 
             //修改畫面顯示結果
             lbl_BMI_Show.Text = human.CalCulateBMI().ToString();
