@@ -10,7 +10,7 @@ namespace BMI
     {
         public cHuman getHuman(double height,double weight,int gender)
         {
-            IBMIChecker bMIChecker =null;
+            iBMIChecker bMIChecker =null;
             switch (gender)
             {
                 case 1:

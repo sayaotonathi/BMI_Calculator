@@ -8,8 +8,8 @@ namespace BMI
 {
     public class cHuman
     {
-        private IBMIChecker bmiChecker;
-        public cHuman(double _height, double _weight,IBMIChecker _bmiChecker)
+        private iBMIChecker bmiChecker;
+        public cHuman(double _height, double _weight,iBMIChecker _bmiChecker)
         {
             this.Height = _height;
             this.Weight = _weight;
@@ -28,14 +28,14 @@ namespace BMI
             return bmiChecker.CheckBMI(CalCulateBMI());
         }
     }
-    public class cMale : IBMIChecker
+    public class cMale : iBMIChecker
     {
         public string CheckBMI(double bmi)
         {
             return cUtilities.CheckBMI(bmi, 20, 25);
         }
     }
-    public class cFemale : IBMIChecker
+    public class cFemale : iBMIChecker
     {
         public string CheckBMI(double bmi)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BMI
 {
-    public interface IBMIChecker
+    public interface iBMIChecker
     {
         string CheckBMI(double bmi);
     }
